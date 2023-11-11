@@ -1,3 +1,4 @@
+import FifthPage from "./assets/compnents/FifthPage";
 import FourthPage from "./assets/compnents/FourthPage";
 import Header from "./assets/compnents/Header";
 import HeroSection from "./assets/compnents/HeroSection";
@@ -12,7 +13,9 @@ export default function App() {
       <SecondPage />
       <ThirdPage />
       <FourthPage />
+      <FifthPage />
       <SixthPage />
+
       <p className="text-3xl font-bold underline py-96">Work in Progress</p>
     </>
   );

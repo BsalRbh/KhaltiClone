@@ -71,9 +71,12 @@ const ThirdPage = () => {
           setClicked={setClicked}
         />
 
-        <ul className="flex w-[1106px] mx-auto justify-around text-b bg-white -mt-2 pt-3 rounded-b-3xl ">
+        <ul className="flex w-[1106px] mx-auto justify-around text-b bg-white -mt-2 pt-3 rounded-b-3xl  text-[14px]">
           {options.map((item, i) => (
-            <li className="w-[150px] hover:font-bold" key={i + 1}>
+            <li
+              key={i + "q"}
+              className="w-[151px] hover:font-bold text-center p-2 active:border-b  active:border-b-b"
+            >
               <button onClick={() => clickHandle(item)}>{item.name}</button>
             </li>
           ))}
