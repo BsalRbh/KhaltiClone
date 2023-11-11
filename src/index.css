@@ -7,4 +7,5 @@
 }
 html {
   @apply scroll-smooth overflow-x-hidden;
+  font-family: "Poppins";
 }

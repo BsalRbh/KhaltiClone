@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 const SecondPage = () => {
   return (
-    <div className="container px-44 text-center">
+    <div className="container px-44 text-center mt-24 mx-auto">
       <h1 className="head text-b">How Khalti Works?</h1>
       <div className="flex justify-between">
         <div className="flex flex-col items-center">
