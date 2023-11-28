@@ -25,8 +25,8 @@ const Header = () => {
   ];
 
   return (
-    <div className="fixed bg-white z-50 outline outline-1 outline-slate-300">
-      <div className="bg-db w-screen h-11 p-1">
+    <div className="fixed bg-white  z-50 outline outline-1 outline-slate-300 ">
+      <div className="bg-db w-screen h-11 p-1 md:bg-red-400">
         <div className="container mx-auto flex items-center text-white justify-between px-2">
           <div className=" flex items-center">
             <Icon
