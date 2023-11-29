@@ -5,7 +5,7 @@ const VideoTemplate = ({ ImageLink, YoutubeLink, clicked, setClicked }) => {
     <div>
       {!clicked && (
         <button
-          className="w-[1106px] h-[396px] relative cursor-default mt-7"
+          className="lg:w-[1106px] lg:h-[396px] relative cursor-default mt-7"
           onClick={() => setClicked(true)}
         >
           <img

@@ -1,9 +1,9 @@
 import { Icon } from "@iconify/react";
 const SecondPage = () => {
   return (
-    <div className="container px-44 text-center mt-24 mx-auto">
-      <h1 className="head text-b">How Khalti Works?</h1>
-      <div className="flex justify-between">
+    <div className="container px-44 text-center mt-24 mx-auto ">
+      <h1 className="head text-b text-center">How Khalti Works?</h1>
+      <div className="flex justify-center">
         <div className="flex flex-col items-center">
           <Icon
             icon="line-md:account-add"

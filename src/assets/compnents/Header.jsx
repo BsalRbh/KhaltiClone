@@ -26,7 +26,7 @@ const Header = () => {
 
   return (
     <div className="fixed bg-white  z-50 outline outline-1 outline-slate-300 ">
-      <div className="bg-db w-screen h-11 p-1 md:bg-red-400">
+      <div className="bg-db w-screen h-11 p-1">
         <div className="container mx-auto flex items-center text-white justify-between px-2">
           <div className=" flex items-center">
             <Icon
@@ -42,7 +42,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto flex items-center h-[67px] justify-between">
+      <div className="container mx-auto flex items-center h-[67px] justify-between border overflow-hidden">
         <img src={khaltiLogo} alt="KhaltiLogo" className=" h-[53px]" />
         <ul className="flex">
           {menu.map((item, index) => (

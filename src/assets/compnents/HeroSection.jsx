@@ -35,7 +35,7 @@ const HeroSection = () => {
           <Button variant="orange">Sign Up</Button>
         </div>
       </div>
-      <div className=" z-20 container bg-white justify-center h-[285px] mx-auto text-b border-[1px] flex flex-col items-center mt-[-142.5px] rounded-3xl">
+      <div className=" z-20 container bg-white justify-center h-[285px] mx-auto text-b border-[1px] flex flex-col items-center mt-[-142.5px] rounded-3xl overflow-hidden">
         <h1 className="head">Khalti Services</h1>
         <ul className="flex  justify-around min-w-full px-14 mt-6">
           {services.map((service, index) => (

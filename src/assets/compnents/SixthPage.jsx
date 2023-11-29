@@ -101,7 +101,7 @@ const SixthPage = () => {
   };
   console.log(label);
   return (
-    <div className="container mx-auto mt-20 pl-24">
+    <div className="container mx-auto mt-20 pl-24 overflow-hidden">
       <h1 className="head text-b text-center mb-[30px]">Our Partner Bank</h1>
       <ul className="flex bg-[#F7F5FB] justify-start rounded-t-3xl mb-[30px]">
         {BANKS.map((bank, i) => (

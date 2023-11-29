@@ -71,7 +71,7 @@ const ThirdPage = () => {
           setClicked={setClicked}
         />
 
-        <ul className="flex w-[1106px] mx-auto justify-around text-b bg-white -mt-2 pt-3 rounded-b-3xl  text-[14px]">
+        <ul className="flex lg:w-[1106px] mx-auto justify-around text-b bg-white -mt-2 pt-3 rounded-b-3xl  text-[14px]">
           {options.map((item, i) => (
             <li
               key={i + "q"}
